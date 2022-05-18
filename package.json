@@ -1,16 +1,16 @@
 {
-  "name": "13expresspractice",
+  "name": "dynamic-weather-app-express",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./app/app.js",
   "scripts": {
+    "start": "./app/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
-    "handlebars": "^4.7.7",
     "hbs": "^4.2.0",
     "requests": "^0.3.0"
   }

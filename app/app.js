@@ -4,7 +4,9 @@ const path = require("path");
 const hbs = require("hbs")
 const port = process.env.port || 5000;
 const app = express()
-app.listen(port);
+app.listen(port, () => {
+    console.log(`server started at port ${port}`)
+});
 app.set("view engine", "hbs");
 app.set("views", path.join(__dirname, "../views/view1"))
 
